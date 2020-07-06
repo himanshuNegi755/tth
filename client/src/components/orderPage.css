@@ -1,0 +1,24 @@
+.main-div-for-order-history {
+    overflow: hidden;
+}
+.container-for-order-history {
+    padding-top: 20px;
+    background: #f2f2ea;
+    padding-bottom: 20px;
+}
+
+.order-heading {
+    margin-left: 20px;
+    margin-bottom: 0;
+    line-height: 0.5;
+}
+
+.hr-tag {
+    border: 0.5px solid grey;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.order-details {
+    margin-left: 25px;
+}

@@ -1,0 +1,34 @@
+.shopPage-container {
+    overflow: hidden;
+}
+
+.popup-div {
+    position: relative;
+    background-color: #f2f2ea;
+    text-align: right;
+    height: 28px;
+    display: block;
+}
+
+.popup-text {
+    background-color: grey;
+    color: white;
+    display: none;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 15px 50px 0 0;
+}
+
+.product-row {
+    background-color: #f2f2ea;
+}
+
+.filters-col {
+    margin-top: 107px;
+}
+
+.product-card-col {
+    margin-top: 107px;
+    display: inline;
+    /*background-color: white;*/
+}

@@ -1,0 +1,17 @@
+.profile-image-button {
+    width: 35px !important;
+    border-radius: 50%;
+    margin: 0px !important;
+}
+
+.drop-down-options ul {
+    list-style: none;
+    position: absolute;
+    margin-left: -120px;
+    margin-top: -30px;
+    z-index: 1;
+}
+
+.drop-down-options ul li a{
+    color: white;
+}

@@ -1,0 +1,11 @@
+.sign-in-button {
+    background-color: #FF6347;
+    border-color: #343a40;
+    margin-top: 0; 
+    float: left !important;
+}
+
+.sign-in-button:hover {
+    background-color: #FF6347;
+    border-color: #343a40;
+}

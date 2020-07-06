@@ -1,0 +1,15 @@
+.div-for-google-button-in-sign-in-form {
+    text-align: center;
+}
+
+.hr-rule-for-google-button {
+    border-top: 5px solid #000;
+}
+
+.sign-up-button {
+    float: left;
+    margin-top: 0;
+    background-color: #FF6347 !important;
+    border-color: #FF6347 !important;
+    color: white !important;
+}

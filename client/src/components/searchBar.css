@@ -1,0 +1,41 @@
+.div-to-hold-searchBar {
+    overflow: hidden;
+    background-color: grey;
+    padding: 8px 16px 8px 16px;
+}
+
+.searchBar {
+    display: flex;
+    float: left;
+    margin: 0 !important;
+}
+
+.cart-button {
+    margin-top: 0;
+    background-color: #FF6347;
+    border-color: #FF6347;
+    float: right;
+}
+
+.suggestion {
+    margin-top: 36px;
+    background-color: white;
+    margin-left: 46px;
+    position: absolute;
+    z-index: 1;
+}
+
+.suggestion ul {
+    list-style: none;
+    text-align: left;
+}
+
+.suggestion li {
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.suggestion li:hover {
+    text-decoration: underline;
+    background-color: rgba(128, 128, 128, 0.20);
+}

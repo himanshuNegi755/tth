@@ -1,0 +1,161 @@
+.main-class {
+    overflow: hidden;
+    text-align: center;
+}
+
+.home-image  {
+    padding-right: 0;
+    position: relative;
+}
+
+.text-over-image {
+    position: absolute;
+    color: white;
+    top: 0;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.col-back {
+    margin: 0 !important;
+    background-color: #FF6347;
+}
+
+.btn-div {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.profile-button-in-front-page {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.main-text-top {
+    padding-top: 150px;
+    color: white;
+}
+
+.text-first {
+    font-size: 63px;
+    line-height: 0.4;
+}
+
+.text-second {
+    font-size: 20px;
+}
+
+.text-third {
+    font-size: 50px;
+}
+
+.how-to-heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 43px;
+}
+
+.ul-list-main-page {
+    list-style-type:none;
+    overflow: hidden;
+    padding: 0;
+    display: inline-block;
+}
+
+.list-item-main-page {
+    display: inline;
+    float: left;
+    align-content: center;
+    width: 350px;
+}
+
+.h2-font-for-list {
+    font-size: 27px;
+}
+
+.p-font-for-list {
+    font-size: 15px;
+    width: 160px;
+    margin: auto;
+}
+
+.svg-img {
+    margin: 15px;
+}
+
+.shop-section {
+    margin-top: 40px;
+    padding-bottom: 50px;
+    background-color: #f2f2ea;
+}
+
+.shop-section-starting {
+    padding-top: 100px;
+}
+
+.top-row-of2 {
+    margin-bottom: 15px;
+}
+
+.text-over-image-in-shop-section {
+    position: absolute;
+    color: white;
+    top: 0;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+.text-inside-image-button {
+    
+    font-size: 25px;
+}
+
+.reintroduction-section {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.reintroduction-heading {
+    color: #FF6347;
+    font-size: 70px;
+    line-height: 1.5;
+}
+
+.reintroduction-line2 {
+    line-height: 1;
+}
+
+.reintroduction-subText {
+    line-height: 2;
+}
+
+.faq-section {
+    background-color: #f2f2ea;
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+
+/*############### Mobile ################*/
+
+@media screen and (max-width: 680px) {
+    .home-image {
+        display: none;
+    }
+    
+    .ul-list-main-page li {
+        float: none;
+    }
+    
+    .faq-ul {
+        padding: 0;
+        margin: auto;
+    }
+    
+    .faq-list-item {
+        margin: auto;
+        padding: 0;
+    }
+}

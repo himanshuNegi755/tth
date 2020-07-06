@@ -1,0 +1,22 @@
+.container-for-gradient {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.header-1 {
+    text-align: center;
+}
+
+.header-4 {
+    text-align: center;
+}
+
+.container-for-gradient {
+    background: #FF6347; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient#FF6347, #65a5ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF6347, #65a5ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF6347, #65a5ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF6347, #65a5ff); /* Standard syntax*/
+}

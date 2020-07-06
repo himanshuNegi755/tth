@@ -1,0 +1,30 @@
+.container-for-cart-component {
+    overflow: hidden;
+}
+
+.cart-heading {
+    margin-left: 20px;
+    margin-bottom: 0;
+    line-height: 0.5;
+}
+
+.hr-tag {
+    border: 0.5px solid grey;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-for-cart-product {
+    padding-top: 20px;
+    background: #f2f2ea;
+    padding-bottom: 20px;
+}
+
+
+/*############### Mobile ################*/
+
+@media screen and (max-width: 680px) {
+    .cart-product-image {
+        float: left;
+    }
+}
